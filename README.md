@@ -2,20 +2,24 @@
 
 Collect and cluster top 100 hits from different music genres.
 
-Traditionally songs are grouped together with other songs on the basis of genre. While this method of grouping is useful for identifying different styles, it is less useful for grouping songs of similar moods i.e happy upbeat music. The aim of this study is to 
+Traditionally songs are grouped together with other songs on the basis of genre. While this method of grouping is useful for identifying different styles, there may be other valuable ways to group songs together. The aim of this study is to apply clustering algorithms to an assorment of songs across generes and explore cluster centers to determine if the the algorithms grouped songs together on the basis of genre, or in another way that is or is not of value. 
  
 <img src="https://github.com/hobediente/Liquor_Sales_Supervised_Learning_Project/blob/master/LuxcoLogo-ad-1020x372.png" width="500" height="200"></img>
+
+grouping songs of similar moods across genres i.e happy upbeat music, chill background music
 
 # DATA:
 
 The data for this project is sourced from Spotify
-1) Top 100 Pop Tracks 
-2) Top 100 Alternative Tracks 
-3) Top 100 Rock Tracks 
-4) Top 100 Country Tracks
-5) Top 100 Hip Hop Tracks
-6) Top 100 Indie Tracks
-7) Top 100 Electronic Tracks
+- Each playlist is created by Spotify, features the top 100 tracks for that genre, and is updated weekly
+
+1) Top 100 Pop Tracks on Spotify
+2) Top 100 Alternative Tracks on Spotify
+3) Top 100 Rock Tracks on Spotify
+4) Top 100 Country Tracks on Spotify
+5) Top 100 Hip Hop Tracks on Spotify
+6) Top 100 Indie Tracks on Spotify
+7) Top 100 Electronic Tracks on Spotify
 
 # DATA ANALYSIS:
 
@@ -34,34 +38,27 @@ In this step I run clustering algorithms on the unique dataset I put together to
 # Data Collection 
 
 **Step 1 : Selecting the data**
-The following steps were preformed using via google searches
+The following steps were preformed using via google searches and Spotipy 
 
-- Identify top distributers in Iowa Liquor Sales dataset
-- Audit top distributers by the variety of alcohol they sell
-- Select a top distributer that sells a wide variety of alcohol -- Luxico Inc-- and subset data for years 2017-2018 
+- Identify 7 top tracks playlists for different genres created by Spotify 
+- Pip install Spotipy- Spotify's lighweight Python library for the Spotify Web API
+- Import tracks from each Spotify playlist with the free audio features provided by Spotify
+- The free audio features are...
+  1. Danceability- how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm          stability, beat strength, and overall regularity (1= most dancable)
+  2. Energy- perceptual measure of intensity and activity (1= high energy)
+  3. Accousticness- whether the track is acoustic (1= acoustic)
+  4. Liveness- Detects the presence of an audience in the recording (1= live)
+  5. Instrumentalness- Predicts whether a track contains no vocals (1= no vocals)
+  6. Valence- describing the musical positiveness conveyed by a track (1= happy)
+  7. Tempo- beats per minute (BPM)
 
-- Select county-level demographic data for years 2017-2018
-
-- Select county-level education data for years 2017-2018
-
-### Conclusion: There are 99 counties in Iowa. Luxico Inc is the second largest distributer in Iowa, and sells 34 different categories of alcohol. 
 
 **Step 2 : Aggregating the data**
 The following steps were preformed using Python functionalities
 
-- Clean the data
-- Combine liquor invoice, demographic, and education CSV sheets on county name
-
-**Step 3 : Feature Engineering**
-The following steps were preformed using Pandas
-
-- Create columns for...
-   * The total educated population under the age of 25
-   * The percent of population under the age of 25
-   * The percent of population over 25
-   * The percent of the population that is of drinking age
- 
- - The df 
+- Scale tempo to be between 0-1 
+- Concat all Spotify playlists 
+- The df 
  <img src="Images/df.png"></img>
  
 # Exploratory Analysis
