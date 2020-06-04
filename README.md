@@ -44,13 +44,13 @@ The following steps were preformed using via google searches and Spotipy
 - Pip install Spotipy- Spotify's lighweight Python library for the Spotify Web API
 - Import tracks from each Spotify playlist with the free audio features provided by Spotify
 - The free audio features are...
-  1. Danceability- how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm          stability, beat strength, and overall regularity (1= most dancable)
-  2. Energy- perceptual measure of intensity and activity (1= high energy)
-  3. Accousticness- whether the track is acoustic (1= acoustic)
-  4. Liveness- Detects the presence of an audience in the recording (1= live)
-  5. Instrumentalness- Predicts whether a track contains no vocals (1= no vocals)
-  6. Valence- describing the musical positiveness conveyed by a track (1= happy)
-  7. Tempo- beats per minute (BPM)
+     1) Danceability- how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm          stability, beat strength, and overall regularity (1= most dancable)
+     2) Energy- perceptual measure of intensity and activity (1= high energy)
+     3) Accousticness- whether the track is acoustic (1= acoustic)
+     4) Liveness- Detects the presence of an audience in the recording (1= live)
+     5) Instrumentalness- Predicts whether a track contains no vocals (1= no vocals)
+     6) Valence- describing the musical positiveness conveyed by a track (1= happy)
+     7) Tempo- beats per minute (BPM)
 
 
 **Step 2 : Aggregating the data**
@@ -62,6 +62,7 @@ The following steps were preformed using Python functionalities
 
 
 - The df 
+
  <img src="Images/Spotify df.png"></img>
  
 # Exploratory Analysis
