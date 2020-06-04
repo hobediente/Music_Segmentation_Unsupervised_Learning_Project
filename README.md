@@ -29,7 +29,7 @@ In this step I collect and concat all playlists
 # 2. Exploratory Analysis:
 In this step the relationships between each genre playlist amd the song metrics provided by Spotify.
 
-# 3. Modeling Sales:
+# 3. Clustering:
 In this step I run clustering algorithms on the unique dataset I put together to see if songs are clustered along genre lines or clustered in novel way. 
 
 
@@ -229,11 +229,12 @@ The following step is preformed using Seaborn
 
 ### Conclusion: The most danceable genre is hip-hop, and the least danceable genres are indie alternative and rock
 
-# Modeling Sales
+# Clustering
 
-**Step 1 : Selecting Model**
-- Run random forest
-- Run XGboost
+**Step 1 : Selecting Clustering Algorithms**
+- KMeans
+- Hierarchical
+- DBSCAN
 
 **Step 2 : Tuning Models**
 - Get feature importances
