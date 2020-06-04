@@ -57,9 +57,12 @@ The following steps were preformed using via google searches and Spotipy
 The following steps were preformed using Python functionalities
 
 - Scale tempo to be between 0-1 
+- Add a genre column
 - Concat all Spotify playlists 
+
+
 - The df 
- <img src="Images/df.png"></img>
+ <img src="Images/Spotify df.png"></img>
  
 # Exploratory Analysis
 - I divide the analysis into the following parts:
