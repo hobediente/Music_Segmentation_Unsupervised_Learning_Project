@@ -46,7 +46,7 @@ The following steps were preformed using via google searches and Spotipy
 - The free audio features are...
      1) Danceability- how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm          stability, beat strength, and overall regularity (1= most dancable)
      2) Energy- perceptual measure of intensity and activity (1= high energy)
-     3) Accousticness- whether the track is acoustic (1= acoustic)
+     3) Acousticness- whether the track is acoustic (1= acoustic)
      4) Liveness- Detects the presence of an audience in the recording (1= live)
      5) Instrumentalness- Predicts whether a track contains no vocals (1= no vocals)
      6) Valence- describing the musical positiveness conveyed by a track (1= happy)
@@ -68,38 +68,35 @@ The following steps were preformed using Python functionalities
 # Exploratory Analysis
 - I divide the analysis into the following parts:
 
-**A) Yearly Analysis**: Sales per category, sales per county, sales per bottle volume
+**A) Danceability Analysis**: Analyze each genres' distribution for danceability
 
-**B) Monthly Analysis**: Total sales, sales per category
+**B) Energy Analysis**: Analyze each genres' distribution for Energy
 
-**C) Customer Analysis**: Analyzing relationship between population demographics and sales per county. 
+**C) Acousticness Analysis**: Analyze each genres' distribution for Acousticness 
 
-**D) Predicting Sales**: Using demographic and sales data from 2017 to predict yearly sales per county for 2018.
+**D) Liveness Sales**: Analyze each genres' distribution for Liveness
 
-# A) Yearly Analysis :
-**Step 1 : Exploring the data**
-The following steps are preformed using pandas functionalities
+**E) Instrumentalness Sales**: Analyze each genres' distribution for instrumentalness
 
-- Examine volume of liqour sold in gallons grouped by category
-- Examine volume of liquor sold in gallons grouped by county
-- Examine volume of liquor sold in gallons grouped by bottle size 
+**F) Valence Sales**: Analyze each genres' distribution for Valence
 
-# A) Yearly Analysis :
-**Step 2 : Visualizing the data**
+**G) Tempo Sales**: Analyze each genres' distribution for Tempo
 
-In this step, I visualize the previous findings using plotly.express 
-
-<img src="https://github.com/hobediente/Liquor_Sales_Supervised_Learning_Project/blob/master/Images/Gallons_per_Category.png"></img>
-
-### Conclusion: American Vodkas account for nearly half of all sales
+# A) Danceability Analysis :
+**Step 1 : Visualize the data's distribution as a whole**
+The following step is preformed using Matplotlib
 
 <img src="https://github.com/hobediente/Liquor_Sales_Supervised_Learning_Project/blob/master/Images/Gallons_per_County.png"></img>
 
-### Conclusion: Ten out of ninety-nine counties account for over sixty percent of sales
+### Conclusion: Appears to be realtively normally distributed
 
-<img src="https://github.com/hobediente/Liquor_Sales_Supervised_Learning_Project/blob/master/Images/Gallons_per_Bottle_Size.png"></img>
+# A) Danceability Analysis  :
+**Step 2 : Visualize each genres' ditribution**
+The following step is preformed using Seaborn
 
-### Conclusion: 1750ml, 1000ml, and 750ml the dominate size of bottles sold
+<img src="https://github.com/hobediente/Liquor_Sales_Supervised_Learning_Project/blob/master/Images/Gallons_per_Category.png"></img>
+
+### Conclusion: The most danceable genre is hip-hop, and the least danceable genres are indie alternative and rock
 
 # B) Monthly Analysis :
 **Step 1 : Exploring the data**
