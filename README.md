@@ -4,7 +4,7 @@ Collect and cluster top 100 hits from different music genres.
 
 Traditionally songs are grouped together with other songs on the basis of genre. While this method of grouping is useful for identifying different styles, there may be other valuable ways to group songs together. The aim of this study is to apply clustering algorithms to an assorment of songs across generes and explore cluster centers to determine if the the algorithms grouped songs together on the basis of genre, or in another way that is or is not of value. 
  
-<img src="Images/Spotify Logo.jpg" width="700" height="300"></img>
+<img src="Images/Spotify Logo.jpg"></img>
 
 grouping songs of similar moods across genres i.e happy upbeat music, chill background music
 
