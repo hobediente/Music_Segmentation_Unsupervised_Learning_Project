@@ -44,6 +44,7 @@ The following steps were preformed using via google searches and Spotipy
 - Pip install Spotipy- Spotify's lighweight Python library for the Spotify Web API
 - Import tracks from each Spotify playlist with the free audio features provided by Spotify
 - The free audio features are...
+
      1) Danceability- how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm          stability, beat strength, and overall regularity (1= most dancable)
      2) Energy- perceptual measure of intensity and activity (1= high energy)
      3) Acousticness- whether the track is acoustic (1= acoustic)
@@ -84,6 +85,7 @@ The following steps were preformed using Python functionalities
 
 # A) Danceability Analysis :
 **Step 1 : Visualize the data's distribution as a whole**
+
 The following step is preformed using Matplotlib
 
 <img src="https://github.com/hobediente/Liquor_Sales_Supervised_Learning_Project/blob/master/Images/Gallons_per_County.png"></img>
@@ -92,6 +94,7 @@ The following step is preformed using Matplotlib
 
 # A) Danceability Analysis  :
 **Step 2 : Visualize each genres' ditribution**
+
 The following step is preformed using Seaborn
 
 <img src="https://github.com/hobediente/Liquor_Sales_Supervised_Learning_Project/blob/master/Images/Gallons_per_Category.png"></img>
