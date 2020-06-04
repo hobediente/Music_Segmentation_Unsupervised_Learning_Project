@@ -71,17 +71,19 @@ The following steps were preformed using Python functionalities
 
 **A) Danceability Analysis**: Analyze each genres' distribution for danceability
 
-**B) Energy Analysis**: Analyze each genres' distribution for Energy
+**B) Speechiness Analysis**: Analyze each genres' distribution for speechiness
 
-**C) Acousticness Analysis**: Analyze each genres' distribution for Acousticness 
+**C) Energy Analysis**: Analyze each genres' distribution for energy
 
-**D) Liveness Sales**: Analyze each genres' distribution for Liveness
+**D) Acousticness Analysis**: Analyze each genres' distribution for acousticness 
 
-**E) Instrumentalness Sales**: Analyze each genres' distribution for instrumentalness
+**E) Liveness Sales**: Analyze each genres' distribution for liveness
 
-**F) Valence Sales**: Analyze each genres' distribution for Valence
+**F) Instrumentalness Sales**: Analyze each genres' distribution for instrumentalness
 
-**G) Tempo Sales**: Analyze each genres' distribution for Tempo
+**G) Valence Sales**: Analyze each genres' distribution for valence
+
+**H) Tempo Sales**: Analyze each genres' distribution for tempo
 
 # A) Danceability Analysis :
 **Step 1 : Visualize the data's distribution as a whole**
@@ -101,47 +103,131 @@ The following step is preformed using Seaborn
 
 ### Conclusion: The most danceable genre is hip-hop, and the least danceable genres are indie alternative and rock
 
-# B) Monthly Analysis :
-**Step 1 : Exploring the data**
+# B) Energy Analysis :
+**Step 1 : Visualize the data's distribution as a whole**
 
-In this step, I preformed the following using pandas functionalities
-- Examine total sales per month
-- Examine total sales per month by category of alcohol 
+The following step is preformed using Matplotlib
 
+<img src="https://github.com/hobediente/Liquor_Sales_Supervised_Learning_Project/blob/master/Images/Gallons_per_County.png"></img>
 
-# B) Monthly Analysis :
-**Step 2 : Visualizing the data**
+### Conclusion: Appears to be realtively normally distributed
 
-In this step, I visualized the previous findings using seaborn
+# B) Energy Analysis  :
+**Step 2 : Visualize each genres' ditribution**
 
-<img src="https://github.com/hobediente/Liquor_Sales_Supervised_Learning_Project/blob/master/Images/2017_Sales_Over_Time.png" width="600" height="300"></img>
+The following step is preformed using Seaborn
 
-<img src="https://github.com/hobediente/Liquor_Sales_Supervised_Learning_Project/blob/master/Images/2018_Sales_Over_Time.png" width="600" height="300"></img>
+<img src="https://github.com/hobediente/Liquor_Sales_Supervised_Learning_Project/blob/master/Images/Gallons_per_Category.png"></img>
 
-### Conclusion: Sales appear to spike in even numbered months and fall in odd numbered months.
+### Conclusion: The most danceable genre is hip-hop, and the least danceable genres are indie alternative and rock
 
-<img src="https://github.com/hobediente/Liquor_Sales_Supervised_Learning_Project/blob/master/Images/2017_Category_Sales.png" width="740" height="300"></img>
+# C) Speechiness Analysis :
+**Step 1 : Visualize the data's distribution as a whole**
 
-<img src="https://github.com/hobediente/Liquor_Sales_Supervised_Learning_Project/blob/master/Images/2018_Category_Sales.png" width="740" height="300"></img>
+The following step is preformed using Matplotlib
 
-### Conclusion: Certain categories of alcohol appear to be seasonaly ordered i.e. mixto tequila, while others show more consistency. 
+<img src="https://github.com/hobediente/Liquor_Sales_Supervised_Learning_Project/blob/master/Images/Gallons_per_County.png"></img>
 
-# C) Customer Analysis :
-**Step 1 : Exploring the data**
-In this step, I preformed the following using pandas functionalities
+### Conclusion: Appears to be realtively normally distributed
 
-- Group DataFrame by county, summing for the total amount of liquor sold in gallons, and taking the mode for relevant population statics
-- Examine the relationship between population demographics per county and sales
+# C) Speechiness Analysis  :
+**Step 2 : Visualize each genres' ditribution**
 
-# C) Customer Analysis :
-**Step 2 : Visualizing the data**
+The following step is preformed using Seaborn
 
-In this step, I visualized the previous findings using ploty.express
+<img src="https://github.com/hobediente/Liquor_Sales_Supervised_Learning_Project/blob/master/Images/Gallons_per_Category.png"></img>
 
-<img src="Images/Pop_Stats_and_Sales.png" width="600" height="600"></img>
+### Conclusion: The most danceable genre is hip-hop, and the least danceable genres are indie alternative and rock
 
-### Conclusion: Sales are highly correlated to the percent of educated population under 25.
+# D) Acousticness Analysis :
+**Step 1 : Visualize the data's distribution as a whole**
 
+The following step is preformed using Matplotlib
+
+<img src="https://github.com/hobediente/Liquor_Sales_Supervised_Learning_Project/blob/master/Images/Gallons_per_County.png"></img>
+
+### Conclusion: Appears to be realtively normally distributed
+
+# D) Acousticness Analysis  :
+**Step 2 : Visualize each genres' ditribution**
+
+The following step is preformed using Seaborn
+
+<img src="https://github.com/hobediente/Liquor_Sales_Supervised_Learning_Project/blob/master/Images/Gallons_per_Category.png"></img>
+
+### Conclusion: The most danceable genre is hip-hop, and the least danceable genres are indie alternative and rock
+
+# E) Instrumentalness Analysis :
+**Step 1 : Visualize the data's distribution as a whole**
+
+The following step is preformed using Matplotlib
+
+<img src="https://github.com/hobediente/Liquor_Sales_Supervised_Learning_Project/blob/master/Images/Gallons_per_County.png"></img>
+
+### Conclusion: Appears to be realtively normally distributed
+
+# E) Instrumentalness Analysis  :
+**Step 2 : Visualize each genres' ditribution**
+
+The following step is preformed using Seaborn
+
+<img src="https://github.com/hobediente/Liquor_Sales_Supervised_Learning_Project/blob/master/Images/Gallons_per_Category.png"></img>
+
+### Conclusion: The most danceable genre is hip-hop, and the least danceable genres are indie alternative and rock
+
+# F) Liveness Analysis :
+**Step 1 : Visualize the data's distribution as a whole**
+
+The following step is preformed using Matplotlib
+
+<img src="https://github.com/hobediente/Liquor_Sales_Supervised_Learning_Project/blob/master/Images/Gallons_per_County.png"></img>
+
+### Conclusion: Appears to be realtively normally distributed
+
+# F) Liveness Analysis  :
+**Step 2 : Visualize each genres' ditribution**
+
+The following step is preformed using Seaborn
+
+<img src="https://github.com/hobediente/Liquor_Sales_Supervised_Learning_Project/blob/master/Images/Gallons_per_Category.png"></img>
+
+### Conclusion: The most danceable genre is hip-hop, and the least danceable genres are indie alternative and rock
+
+# G) Valence Analysis :
+**Step 1 : Visualize the data's distribution as a whole**
+
+The following step is preformed using Matplotlib
+
+<img src="https://github.com/hobediente/Liquor_Sales_Supervised_Learning_Project/blob/master/Images/Gallons_per_County.png"></img>
+
+### Conclusion: Appears to be realtively normally distributed
+
+# G) Valence Analysis  :
+**Step 2 : Visualize each genres' ditribution**
+
+The following step is preformed using Seaborn
+
+<img src="https://github.com/hobediente/Liquor_Sales_Supervised_Learning_Project/blob/master/Images/Gallons_per_Category.png"></img>
+
+### Conclusion: The most danceable genre is hip-hop, and the least danceable genres are indie alternative and rock
+
+# H) Tempo Analysis :
+**Step 1 : Visualize the data's distribution as a whole**
+
+The following step is preformed using Matplotlib
+
+<img src="https://github.com/hobediente/Liquor_Sales_Supervised_Learning_Project/blob/master/Images/Gallons_per_County.png"></img>
+
+### Conclusion: Appears to be realtively normally distributed
+
+# H) Tempo Analysis  :
+**Step 2 : Visualize each genres' ditribution**
+
+The following step is preformed using Seaborn
+
+<img src="https://github.com/hobediente/Liquor_Sales_Supervised_Learning_Project/blob/master/Images/Gallons_per_Category.png"></img>
+
+### Conclusion: The most danceable genre is hip-hop, and the least danceable genres are indie alternative and rock
 
 # Modeling Sales
 
