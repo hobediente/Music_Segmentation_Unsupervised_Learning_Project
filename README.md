@@ -216,7 +216,7 @@ The following step is preformed using Seaborn
 
 The following step is preformed using Matplotlib
 
-<img src="Images/Screen Shot 2020-06-08 at 3.21.58 PM.png" width="600" height="350"></img>
+<img src="Images/Screen Shot 2020-06-08 at 3.21.58 PM.png" width="550" height="350"></img>
 
 ### Conclusion: Appears to be realtively normally distributed
 
