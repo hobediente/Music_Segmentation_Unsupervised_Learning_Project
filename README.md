@@ -99,7 +99,7 @@ The following step is preformed using Matplotlib
 
 The following step is preformed using Seaborn
 
-<img src="Images/danceability_boxplot.png"></img>
+<img src="Images/danceability_boxplot.png" width="500" height="500"></img>
 
 ### Conclusion: The most danceable genre is hip-hop, and the least danceable genres are indie alternative and rock
 
@@ -117,7 +117,7 @@ The following step is preformed using Matplotlib
 
 The following step is preformed using Seaborn
 
-<img src="Images/speechiness_boxplot.png"></img>
+<img src="Images/speechiness_boxplot.png" width="600" height="300"></img>
 
 ### Conclusion: The most danceable genre is hip-hop, and the least danceable genres are indie alternative and rock
 
