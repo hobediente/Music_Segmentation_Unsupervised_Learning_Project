@@ -90,7 +90,7 @@ The following steps were preformed using Python functionalities
 
 The following step is preformed using Matplotlib
 
-<img src="Images/danceability_hist.png" width="375" height="300"></img>
+<img src="Images/danceability_hist.png" width="350" height="275"></img>
 
 ### Conclusion: Appears to be realtively normally distributed
 
@@ -99,7 +99,7 @@ The following step is preformed using Matplotlib
 
 The following step is preformed using Seaborn
 
-<img src="Images/danceability_boxplot.png" width="625" height="350"></img>
+<img src="Images/danceability_boxplot.png" width="625" height="375"></img>
 
 ### Conclusion: The most danceable genre is hip-hop, and the least danceable genres are indie alternative and rock
 
