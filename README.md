@@ -90,7 +90,7 @@ The following steps were preformed using Python functionalities
 
 The following step is preformed using Matplotlib
 
-<img src="Images/danceability_hist.png" width="350" height="300"></img>
+<img src="Images/danceability_hist.png" width="375" height="300"></img>
 
 ### Conclusion: Appears to be realtively normally distributed
 
