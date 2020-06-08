@@ -216,7 +216,7 @@ The following step is preformed using Seaborn
 
 The following step is preformed using Matplotlib
 
-<img src="https://github.com/hobediente/Liquor_Sales_Supervised_Learning_Project/blob/master/Images/Gallons_per_County.png"></img>
+<img src="Images/Screen Shot 2020-06-08 at 3.21.58 PM.png" width="625" height="350"></img>
 
 ### Conclusion: Appears to be realtively normally distributed
 
