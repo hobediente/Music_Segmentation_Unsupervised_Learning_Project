@@ -90,7 +90,7 @@ The following steps were preformed using Python functionalities
 
 The following step is preformed using Matplotlib
 
-<img src="https://github.com/hobediente/Liquor_Sales_Supervised_Learning_Project/blob/master/Images/Gallons_per_County.png"></img>
+<img src="Images/danceability_hist.png"></img>
 
 ### Conclusion: Appears to be realtively normally distributed
 
