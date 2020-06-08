@@ -92,7 +92,7 @@ The following step is preformed using Matplotlib
 
 <img src="Images/danceability_hist.png" width="350" height="275"></img>
 
-### Conclusion: Appears to be realtively normally distributed
+### Conclusion: The danceability of songs range from approximately .1 to approximately .9, and peak at .6. Moreover, danceability visually appears to follow a normal distribution.
 
 # A) Danceability Analysis  :
 **Step 2 : Visualize each genres' ditribution**
@@ -101,7 +101,7 @@ The following step is preformed using Seaborn
 
 <img src="Images/danceability_boxplot.png" width="625" height="375"></img>
 
-### Conclusion: The most danceable genre is hip-hop, and the least danceable genres are indie alternative and rock
+### Conclusion: The most danceable genre is hip-hop, and the least danceable genres are indie alternative and rock.
 
 # B) Speechiness Analysis :
 **Step 1 : Visualize the data's distribution as a whole**
@@ -110,7 +110,7 @@ The following step is preformed using Matplotlib
 
 <img src="Images/speechiness_hist.png" width="350" height="275"></img>
 
-### Conclusion: Appears to be realtively normally distributed
+### Conclusion: The speechiness of songs range from near 0 to approximately .5, and peak around .1. The distribution visually appears to be positively skewed with high kurtosis. 
 
 # B) Speechiness Analysis  :
 **Step 2 : Visualize each genres' ditribution**
@@ -119,7 +119,7 @@ The following step is preformed using Seaborn
 
 <img src="Images/speechiness_boxplot.png" width="625" height="375"></img>
 
-### Conclusion: The most danceable genre is hip-hop, and the least danceable genres are indie alternative and rock
+### Conclusion: Hip-hop is by the genre with the highest speechiness.
 
 # C) Energy Analysis :
 **Step 1 : Visualize the data's distribution as a whole**
@@ -128,7 +128,7 @@ The following step is preformed using Matplotlib
 
 <img src="Images/energy_hist.png" width="350" height="275"></img>
 
-### Conclusion: Appears to be realtively normally distributed
+### Conclusion: The energy of songs appear to peak around .9 follow a negatively skewed distribution.
 
 # C) Energy Analysis  :
 **Step 2 : Visualize each genres' ditribution**
@@ -137,7 +137,7 @@ The following step is preformed using Seaborn
 
 <img src="Images/energy_boxplot.png" width="625" height="375"></img>
 
-### Conclusion: The most danceable genre is hip-hop, and the least danceable genres are indie alternative and rock
+### Conclusion: On average rock songs appear to have higher energy and hip-hop songs appear to have lower energy than songs from other genres. 
 
 # D) Acousticness Analysis :
 **Step 1 : Visualize the data's distribution as a whole**
