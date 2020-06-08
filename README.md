@@ -99,11 +99,11 @@ The following step is preformed using Matplotlib
 
 The following step is preformed using Seaborn
 
-<img src="https://github.com/hobediente/Liquor_Sales_Supervised_Learning_Project/blob/master/Images/Gallons_per_Category.png"></img>
+<img src="Images/danceability_boxplot.png"></img>
 
 ### Conclusion: The most danceable genre is hip-hop, and the least danceable genres are indie alternative and rock
 
-# B) Energy Analysis :
+# B) Speechiness Analysis :
 **Step 1 : Visualize the data's distribution as a whole**
 
 The following step is preformed using Matplotlib
@@ -112,16 +112,16 @@ The following step is preformed using Matplotlib
 
 ### Conclusion: Appears to be realtively normally distributed
 
-# B) Energy Analysis  :
+# B) Speechiness Analysis  :
 **Step 2 : Visualize each genres' ditribution**
 
 The following step is preformed using Seaborn
 
-<img src="https://github.com/hobediente/Liquor_Sales_Supervised_Learning_Project/blob/master/Images/Gallons_per_Category.png"></img>
+<img src="Images/speechiness_boxplot.png"></img>
 
 ### Conclusion: The most danceable genre is hip-hop, and the least danceable genres are indie alternative and rock
 
-# C) Speechiness Analysis :
+# C) Energy Analysis :
 **Step 1 : Visualize the data's distribution as a whole**
 
 The following step is preformed using Matplotlib
@@ -130,7 +130,7 @@ The following step is preformed using Matplotlib
 
 ### Conclusion: Appears to be realtively normally distributed
 
-# C) Speechiness Analysis  :
+# C) Energy Analysis  :
 **Step 2 : Visualize each genres' ditribution**
 
 The following step is preformed using Seaborn
