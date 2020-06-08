@@ -146,7 +146,7 @@ The following step is preformed using Matplotlib
 
 <img src="Images/acousticness_hist.png" width="350" height="275"></img>
 
-### Conclusion: Appears to be realtively normally distributed
+### Conclusion: The acousticness of songs appear to range from around 0 to .6 with few outliers around .8. Furthermore, the distribution is charachterized by a negative skew and high kurtosis.
 
 # D) Acousticness Analysis  :
 **Step 2 : Visualize each genres' ditribution**
@@ -155,7 +155,7 @@ The following step is preformed using Seaborn
 
 <img src="Images/acousticness_boxplot.png" width="625" height="375"></img>
 
-### Conclusion: The most danceable genre is hip-hop, and the least danceable genres are indie alternative and rock
+### Conclusion: With few exceptions, the marjority of songs irregardless of genre have low acousticness. Still, the most acuostic genres are country and hip-hop. 
 
 # E) Instrumentalness Analysis :
 **Step 1 : Visualize the data's distribution as a whole**
@@ -164,7 +164,7 @@ The following step is preformed using Matplotlib
 
 <img src="Images/instrumentalness_hist.png" width="350" height="275"></img>
 
-### Conclusion: Appears to be realtively normally distributed
+### Conclusion: The instrumentalness of songs approximately range between 0 and .9, and peak between 0 and .1. The distribution has high kurtosis and is negatively skewed.
 
 # E) Instrumentalness Analysis  :
 **Step 2 : Visualize each genres' ditribution**
@@ -173,7 +173,7 @@ The following step is preformed using Seaborn
 
 <img src="Images/instrumentalness_boxplot.png" width="625" height="375"></img>
 
-### Conclusion: The most danceable genre is hip-hop, and the least danceable genres are indie alternative and rock
+### Conclusion: Indie has exceptionally high instrumentalness compared to other genres. Excluding country and hip-hop, all other genres have outliers with high intrumentalness.
 
 # F) Liveness Analysis :
 **Step 1 : Visualize the data's distribution as a whole**
@@ -182,7 +182,7 @@ The following step is preformed using Matplotlib
 
 <img src="Images/liveness_hist.png" width="350" height="275"></img>
 
-### Conclusion: Appears to be realtively normally distributed
+### Conclusion: The liveness of songs approximately range between 0 and .7 with few songs falling between .8 and .9. The distribution peaks betwen 0 and .2, and is negatively skewed.
 
 # F) Liveness Analysis  :
 **Step 2 : Visualize each genres' ditribution**
@@ -191,7 +191,7 @@ The following step is preformed using Seaborn
 
 <img src="Images/liveness_boxplot.png" width="625" height="375"></img>
 
-### Conclusion: The most danceable genre is hip-hop, and the least danceable genres are indie alternative and rock
+### Conclusion: Most genres appear to have low levels of liveness. 
 
 # G) Valence Analysis :
 **Step 1 : Visualize the data's distribution as a whole**
