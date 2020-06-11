@@ -269,9 +269,8 @@ The following step is preformed using Seaborn
     * KMeans cluster 2: High instrumentalness
     * KMeans cluster 3: Low liveness, low energy, high danceability
    
-### Conclusion: Some clusters represent genres more than others.
+### Conclusion: Some clusters closely represent genres i.e. rock and cluster 0, while others do not seem to represent any one particular genre but songs with similar metrics within them.
 
-  
 # Analysis Takeaways :
 - The KMeans algorithm did not cluster along genre lines
 - Instead it grouped songs of similar moods across genres, which can be valuable for creating genre- diverse playlists for occasions that require consistent energy
