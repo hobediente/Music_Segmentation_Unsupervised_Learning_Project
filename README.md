@@ -264,12 +264,12 @@ The following step is preformed using Seaborn
 
 <img src="Images/cluster_centers.png"></img>
 
-   * KMeans cluster 0: High energy, high danceability, high valence
-   * KMeans cluster 1: High energy, high danceability, low valence
-   * KMeans cluster 2: High instrumentalness
-   * KMeans cluster 3: Low liveness, low energy, high danceability
+    * KMeans cluster 0: High energy, high danceability, high valence
+    * KMeans cluster 1: High energy, high danceability, low valence
+    * KMeans cluster 2: High instrumentalness
+    * KMeans cluster 3: Low liveness, low energy, high danceability
    
-### Conclusion: In decending order the KMeans clusters are characterized by, high energy, high danceability, high valence; high energy, high danceability, low valence; high instrumentalness; and Low liveness, low energy, high danceability
+### Conclusion: Some clusters represent genres more than others.
 
   
 # Analysis Takeaways :
