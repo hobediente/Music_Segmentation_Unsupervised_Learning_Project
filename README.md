@@ -200,7 +200,7 @@ The following step is preformed using Matplotlib
 
 <img src="Images/valence_hist.png" width="350" height="275"></img>
 
-### Conclusion: Appears to be realtively normally distributed
+### Conclusion: The valence of songs range from around 0 to 1, and peak around .5. The distribution is relatively symetrical. 
 
 # G) Valence Analysis  :
 **Step 2 : Visualize each genres' ditribution**
@@ -209,7 +209,7 @@ The following step is preformed using Seaborn
 
 <img src="Images/valence_boxplot.png" width="625" height="375"></img>
 
-### Conclusion: The most danceable genre is hip-hop, and the least danceable genres are indie alternative and rock
+### Conclusion: The genre with the most valence is country. 
 
 # H) Tempo Analysis :
 **Step 1 : Visualize the data's distribution as a whole**
@@ -218,7 +218,7 @@ The following step is preformed using Matplotlib
 
 <img src="Images/tempo_hist.png" width="350" height="275"></img>
 
-### Conclusion: Appears to be realtively normally distributed
+### Conclusion: Tempo ranges from around 60 beats per minute (bpm) to 210 bpm. There is a stark peak around 120 bpm. 
 
 # H) Tempo Analysis  :
 **Step 2 : Visualize each genres' ditribution**
@@ -227,7 +227,7 @@ The following step is preformed using Seaborn
 
 <img src="Images/tempo_boxplot.png" width="625" height="375"></img>
 
-### Conclusion: The most danceable genre is hip-hop, and the least danceable genres are indie alternative and rock
+### Conclusion: Relative to other genres, hip-hop has the slowest tempo and electronic has the most narrow range of tempo. 
 
 # Clustering
 
