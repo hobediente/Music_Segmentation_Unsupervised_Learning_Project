@@ -6,8 +6,6 @@ Traditionally songs are grouped together with other songs on the basis of genre.
  
 <img src="Images/Spotify Logo.jpg"></img>
 
-grouping songs of similar moods across genres i.e happy upbeat music, chill background music
-
 # DATA:
 
 The data for this project is sourced from Spotify
@@ -258,7 +256,7 @@ The following step is preformed using Seaborn
 - Numeric comparison
   
 # Analysis Takeaways :
-- Algorithms do not cluster along genre lines
-- BUT that does not mean the clusters aren’t useful
-   * Runnning playlist
-   * Party playlist 
+- The KMeans algorithm did not cluster along genre lines
+- Instead it grouped songs of similar moods across genres, which can be valuable for creating genre- diverse playlists for occasions that require consistent energy
+   * Runnning playlists
+   * Party playlists
