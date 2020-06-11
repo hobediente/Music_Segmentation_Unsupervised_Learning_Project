@@ -253,7 +253,14 @@ The following step is preformed using Seaborn
 - KMeans is the best preforming model 
 - With K=4 , KMEans achieved a silhoutte score of .1935
 - Visual comparison
+
+<img src="Images/clustering_by_genre.png" width="625" height="375"></img>
+
+<img src="Images/clustering_by_KMeans.png"></img>
+
 - Numeric comparison
+
+<img src="Images/clustering_centers.png"></img>
   
 # Analysis Takeaways :
 - The KMeans algorithm did not cluster along genre lines
