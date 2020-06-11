@@ -274,7 +274,7 @@ The following step is preformed using Seaborn
 
 # Analysis Takeaways :
 - The KMeans algorithm did not cluster along genre lines
-- Instead it grouped songs of similar moods across genres, which can be valuable for creating genre- diverse playlists for occasions that require consistent energy
+- Instead it grouped songs of similar moods across genres, which can be valuable for creating genre-diverse playlists for occasions that require consistent energy
    * Runnning playlists
    * Party playlists
    
