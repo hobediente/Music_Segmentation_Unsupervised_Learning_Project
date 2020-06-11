@@ -254,9 +254,9 @@ The following step is preformed using Seaborn
 - With K=4 , KMEans achieved a silhoutte score of .1935
 - Visual comparison
 
-<img src="Images/clustering_by_genre.png" width="625" height="625"></img>
+<img src="Images/clustering_by_genre.png" width="600" height="400"></img>
 
-<img src="Images/clustering_by_KMeans.png" width="550" height="550"></img>
+<img src="Images/clustering_by_KMeans.png" width="700" height="500"></img>
 
 - Numeric comparison
 
