@@ -254,13 +254,13 @@ The following step is preformed using Seaborn
 - With K=4 , KMEans achieved a silhoutte score of .1935
 - Visual comparison
 
-<img src="Images/clustering_by_genre.png" width="625" height="375"></img>
+<img src="Images/clustering_by_genre.png" width="625" height="625"></img>
 
-<img src="Images/clustering_by_KMeans.png"></img>
+<img src="Images/clustering_by_KMeans.png" width="550" height="550"></img>
 
 - Numeric comparison
 
-<img src="Images/clustering_centers.png"></img>
+<img src="Images/cluster_centers.png"></img>
   
 # Analysis Takeaways :
 - The KMeans algorithm did not cluster along genre lines
