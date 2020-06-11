@@ -30,7 +30,7 @@ In this step the relationships between each genre playlist amd the song metrics 
 # 3. Clustering:
 In this step I run clustering algorithms on the unique dataset I put together to see if songs are clustered along genre lines or clustered in novel way. 
 
-*For results, limitations, and takeaways scroll to bottom*
+### *For results, limitations, and takeaways scroll to bottom*
 
 -----------------------------------------------------------------------------------------------------------
 
