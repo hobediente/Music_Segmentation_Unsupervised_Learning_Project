@@ -254,13 +254,23 @@ The following step is preformed using Seaborn
 - With K=4 , KMEans achieved a silhoutte score of .1935
 - Visual comparison
 
-<img src="Images/clustering_by_genre.png" width="550" height="450"></img>
+<img src="Images/clustering_by_genre.png" width="650" height="500"></img>
 
 <img src="Images/clustering_by_KMeans.png" width="650" height="500"></img>
+
+### Conclusion: Genres do not appear to have distinct clusters, so we can assume each of the KMeans clusters contain songs from multiple genres.
 
 - Numeric comparison
 
 <img src="Images/cluster_centers.png"></img>
+
+   * KMeans cluster 0: High energy, high danceability, high valence
+   * KMeans cluster 1: High energy, high danceability, low valence
+   * KMeans cluster 2: High instrumentalness
+   * KMeans cluster 3: Low liveness, low energy, high danceability
+   
+### Conclusion: In decending order the KMeans clusters are characterized by, high energy, high danceability, high valence; high energy, high danceability, low valence; high instrumentalness; and Low liveness, low energy, high danceability
+
   
 # Analysis Takeaways :
 - The KMeans algorithm did not cluster along genre lines
