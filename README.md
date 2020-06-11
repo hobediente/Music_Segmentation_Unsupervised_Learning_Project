@@ -57,7 +57,7 @@ The following steps were preformed using via google searches and Spotipy
 **Step 2 : Aggregating the data**
 The following steps were preformed using Python functionalities
 
-- Scale tempo to be between 0-1 
+- Scale tempo to be between 0-1 and store in a new column
 - Add a genre column
 - Concat all Spotify playlists 
 
@@ -233,28 +233,32 @@ The following step is preformed using Seaborn
 
 **Step 1 : Selecting Clustering Algorithms**
 - KMeans
-- Hierarchical
 - DBSCAN
+- Hierarchical
 
 **Step 2 : Tuning Models**
-- Get feature importances
-- Rerun models with only important features
-- Run GridSearchCV to hypertune parameters
-- Rerun models with hypertuned parameters
+- KMeans 
+   * select optimal number of K
+- DBSCAN
+   * select optimal numbers for epsilon and minimum number of samples
+- Hierarchical
+   * slect optimal affinity and linkage
+- Rerun models with tuned parameters
 
 **Step 3 : Select Best Model**
-- Compare goodness of model meterics and select best model
-  * MAE, MSE, RMSE, MAPE
+- Compare silhouette scores and clusters of tuned models and select the best model
+ 
   
 -----------------------------------------------------------------------------------------------------------
 
 # Model Results :
-- XGboost is the best preforming model 
-- With input features of category, percent population with an education, and percent population under 25 the model achieved..
-  * Training Score: 0.999, Test Score: 0.996
-  * RMSE: 17357.78 (0.09% of total sales)
+- KMeans is the best preforming model 
+- With K=4 , KMEans achieved a silhoutte score of .1935
+- Visual comparison
+- Numeric comparison
   
 # Analysis Takeaways :
-- Focus advertising resources on counties that bring in the most money
-- Advertise for seasonal liquor at the beginning of their respective seasons
-- Strengthen advertising to and around college campuses
+- Algorithms do not cluster along genre lines
+- BUT that does not mean the clusters aren’t useful
+   * Runnning playlist
+   * Party playlist 
