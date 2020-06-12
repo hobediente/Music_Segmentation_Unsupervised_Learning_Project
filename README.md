@@ -2,7 +2,7 @@
 
 Collect and cluster top 100 hits from different music genres.
 
-Traditionally songs are grouped together with other songs on the basis of genre. While this method of grouping is useful for identifying different styles, there may be other valuable ways to group songs together. The aim of this study is to apply clustering algorithms to an assorment of songs across generes and explore cluster centers to determine if the the algorithms grouped songs together on the basis of genre, or in another way that is or is not of value. 
+Traditionally songs are grouped together with other songs on the basis of genre. While this method of group is useful for identifying different styles, there may be other valuable ways to group songs together. The aim of this study is to apply clustering algorithms to an assorment of songs across generes and explore cluster centers to determine if the the algorithms grouped songs together on the basis of genre, or in another way that is or is not of value. 
  
 <img src="Images/Spotify Logo.jpg"></img>
 
@@ -280,4 +280,4 @@ The following step is preformed using Seaborn
    
 # Limitations :
 - Small dataset
-  * Some clustering algorithms can be heavily influenced by outliers. So if I had more data I would preform further cleaning       of outliers.
+  * Some clustering algorithms can be heavily influenced by outliers. So if I had more data I would preform further cleaning of outliers.
