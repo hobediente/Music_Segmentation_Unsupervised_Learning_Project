@@ -22,7 +22,7 @@ The data for this project is sourced from Spotify
 # DATA ANALYSIS:
 
 # 1. Data Collection:
-In this step I collect and concat all playlists
+In this step I collect and concat all playlists.
 
 # 2. Exploratory Analysis:
 In this step the relationships between each genre playlist amd the song metrics provided by Spotify.
