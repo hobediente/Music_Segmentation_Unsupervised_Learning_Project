@@ -1,4 +1,4 @@
-# Spotify Music Segmentation Unsupervised Learning Project
+# Music Segmentation Unsupervised Learning Project
 
 Collect and cluster top 100 hits from different music genres.
 
